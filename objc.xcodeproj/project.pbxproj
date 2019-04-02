@@ -118,6 +118,13 @@
 			remoteGlobalIDString = D2AAC0620554660B00DB518D;
 			remoteInfo = objc;
 		};
+		D95AF4BE22539B5600A3A9AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 08FB7793FE84155DC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2AAC0620554660B00DB518D;
+			remoteInfo = objc;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -484,6 +491,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				D95AF4BF22539B5600A3A9AF /* PBXTargetDependency */,
 			);
 			name = "objc-debug";
 			productName = "objc-debug";
@@ -653,6 +661,11 @@
 			isa = PBXTargetDependency;
 			target = D2AAC0620554660B00DB518D /* objc */;
 			targetProxy = 837F67AC1A771F6E004D34FA /* PBXContainerItemProxy */;
+		};
+		D95AF4BF22539B5600A3A9AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2AAC0620554660B00DB518D /* objc */;
+			targetProxy = D95AF4BE22539B5600A3A9AF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
